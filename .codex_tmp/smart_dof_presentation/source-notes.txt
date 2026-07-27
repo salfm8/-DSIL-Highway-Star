@@ -1,0 +1,21 @@
+Presentation content is based on local project artifacts only.
+
+Visual evidence:
+- 0720 Pitch/sample_38_short.mp4
+- 0720 Pitch/depth_output.mp4
+- Python_Workspace/Smart DOF/step10_v6_sam.mp4
+- Python_Workspace/Smart DOF/step12_v8_semantic_focus.mp4
+- Python_Workspace/Smart DOF/step13_v9_cinematic_focus_pull.mp4
+- Python_Workspace/Smart DOF/step14_v10_progressive_focus.mp4
+- Python_Workspace/Smart DOF/phase14_v9_v10_progressive_focus_comparison.mp4
+
+Technical descriptions are derived from:
+- cinematic_v7_natural.py
+- cinematic_v8_semantic_focus.py
+- cinematic_v9_cinematic_pull.py
+- cinematic_v10_progressive_focus.py
+- V9_시네마틱_DoF_기술설명_및_활용가이드.md
+
+Research direction references:
+- https://link.springer.com/article/10.1007/s11263-016-0964-8
+- https://openaccess.thecvf.com/content/CVPR2026W/ECV/papers/Yoon_VDPP_Video_Depth_Post-Processing_for_Speed_and_Scalability_CVPRW_2026_paper.pdf

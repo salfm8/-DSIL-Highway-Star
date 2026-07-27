@@ -1,0 +1,1412 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/cq3ynz",
+    "id": "cq3ynz",
+    "slide": 10,
+    "layoutId": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhkf2poz",
+      "id": "1",
+      "name": "Google-Shape-532-p58-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "anchor": 3,
+              "fontSize": 13.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "right",
+              "verticalAlignment": "bottom",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkved4na",
+      "id": "2",
+      "name": "Google-Shape-533-p58-3",
+      "bbox": [
+        41.33,
+        36.17,
+        1197.33,
+        67.64
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다",
+      "textPreview": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다",
+              "anchor": 1,
+              "fontSize": 38.67,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjmx4z65",
+      "id": "3",
+      "name": "Rounded-Rectangle-1-4",
+      "bbox": [
+        41.68,
+        350.56,
+        580.99,
+        138.67
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F2F2F2"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mdwfe5g",
+      "id": "4",
+      "name": "Content-Placeholder-10-5",
+      "bbox": [
+        72.89,
+        376.69,
+        523.56,
+        92.16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "2D Screen-Anchored",
+      "textPreview": "2D Screen-Anchored",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2D Screen-Anchored"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2D Screen-Anchored",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2D Screen-Anchored",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6l4f69ov",
+      "id": "5",
+      "name": "Content-Placeholder-15-6",
+      "bbox": [
+        72.89,
+        506.94,
+        549.78,
+        102.67
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "같은 도로면도 서로 다른 블러\n카메라 이동 시 초점 띠 고정\n장면 기하와 불일치",
+      "textPreview": "같은 도로면도 서로 다른 블러 | 카메라 이동 시 초점 띠 고정 | 장면 기하와 불일치",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "같은 도로면도 서로 다른 블러"
+          },
+          {
+            "index": 2,
+            "text": "카메라 이동 시 초점 띠 고정"
+          },
+          {
+            "index": 3,
+            "text": "장면 기하와 불일치"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "같은 도로면도 서로 다른 블러",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "같은 도로면도 서로 다른 블러",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "카메라 이동 시 초점 띠 고정",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "카메라 이동 시 초점 띠 고정",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "장면 기하와 불일치",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "장면 기하와 불일치",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/toveh4nm",
+      "id": "6",
+      "name": "Rounded-Rectangle-7-7",
+      "bbox": [
+        657.3,
+        350.56,
+        580.99,
+        138.67
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F2F2F2"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nmx8j61",
+      "id": "7",
+      "name": "Content-Placeholder-10-8",
+      "bbox": [
+        688.51,
+        376.69,
+        523.56,
+        92.16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "3D Scene-Anchored",
+      "textPreview": "3D Scene-Anchored",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3D Scene-Anchored"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3D Scene-Anchored",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3D Scene-Anchored",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nq9w3a5c",
+      "id": "8",
+      "name": "Content-Placeholder-15-9",
+      "bbox": [
+        688.51,
+        506.94,
+        549.78,
+        102.67
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "도로·책상·벽면 방향을 추종\n카메라 이동 중 초점면 유지\n3D 거리로 블러 계산",
+      "textPreview": "도로·책상·벽면 방향을 추종 | 카메라 이동 중 초점면 유지 | 3D 거리로 블러 계산",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "도로·책상·벽면 방향을 추종"
+          },
+          {
+            "index": 2,
+            "text": "카메라 이동 중 초점면 유지"
+          },
+          {
+            "index": 3,
+            "text": "3D 거리로 블러 계산"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "도로·책상·벽면 방향을 추종",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "도로·책상·벽면 방향을 추종",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "카메라 이동 중 초점면 유지",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "카메라 이동 중 초점면 유지",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "3D 거리로 블러 계산",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3D 거리로 블러 계산",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p0vu5or",
+      "id": "9",
+      "name": "Content-Placeholder-15-10",
+      "bbox": [
+        42.09,
+        121.52,
+        1197.33,
+        171.05
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "새로운 연구 문제\n일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다.\n",
+      "textPreview": "새로운 연구 문제 | 일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다. |",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "새로운 연구 문제"
+          },
+          {
+            "index": 2,
+            "text": "일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이"
+          },
+          {
+            "index": 3,
+            "text": "아니라 화면에 붙어 보입니다."
+          },
+          {
+            "index": 4,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "새로운 연구 문제",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "새로운 연구 문제",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다.",
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다.",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-11",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1239.42,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Google-Shape-532-p58-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "10",
+            "transform": "none",
+            "element": {
+              "aid": "sh/yhkf2poz",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Google-Shape-533-p58-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.17
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 67.64
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 67.64
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.17,
+              "width": 1197.33,
+              "height": 67.64
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.17,
+              "width": 1197.33,
+              "height": 67.64
+            },
+            "children": [],
+            "text": "2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다",
+            "transform": "none",
+            "element": {
+              "aid": "sh/lkved4na",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "Rounded-Rectangle-1-4",
+            "position": {
+              "left": 41.68,
+              "top": 350.56
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 580.99
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 138.67
+              }
+            },
+            "intrinsicSize": {
+              "width": 580.99,
+              "height": 138.67
+            },
+            "frame": {
+              "left": 41.68,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            },
+            "snappedFrame": {
+              "left": 41.68,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            },
+            "children": [],
+            "geometry": "roundRect",
+            "element": {
+              "aid": "sh/kjmx4z65",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "Content-Placeholder-10-5",
+            "position": {
+              "left": 72.89,
+              "top": 376.69
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 523.56
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 92.16
+              }
+            },
+            "intrinsicSize": {
+              "width": 523.56,
+              "height": 92.16
+            },
+            "frame": {
+              "left": 72.89,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            },
+            "snappedFrame": {
+              "left": 72.89,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            },
+            "children": [],
+            "text": "2D Screen-Anchored",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7mdwfe5g",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "Content-Placeholder-15-6",
+            "position": {
+              "left": 72.89,
+              "top": 506.94
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 549.78
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 102.67
+              }
+            },
+            "intrinsicSize": {
+              "width": 549.78,
+              "height": 102.67
+            },
+            "frame": {
+              "left": 72.89,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            },
+            "snappedFrame": {
+              "left": 72.89,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            },
+            "children": [],
+            "text": "같은 도로면도 서로 다른 블러카메라 이동 시 초점 띠 고정장면 기하와 불일치",
+            "transform": "none",
+            "element": {
+              "aid": "sh/6l4f69ov",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "shape",
+            "name": "Rounded-Rectangle-7-7",
+            "position": {
+              "left": 657.3,
+              "top": 350.56
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 580.99
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 138.67
+              }
+            },
+            "intrinsicSize": {
+              "width": 580.99,
+              "height": 138.67
+            },
+            "frame": {
+              "left": 657.3,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            },
+            "snappedFrame": {
+              "left": 657.3,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            },
+            "children": [],
+            "geometry": "roundRect",
+            "element": {
+              "aid": "sh/toveh4nm",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "Content-Placeholder-10-8",
+            "position": {
+              "left": 688.51,
+              "top": 376.69
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 523.56
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 92.16
+              }
+            },
+            "intrinsicSize": {
+              "width": 523.56,
+              "height": 92.16
+            },
+            "frame": {
+              "left": 688.51,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            },
+            "snappedFrame": {
+              "left": 688.51,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            },
+            "children": [],
+            "text": "3D Scene-Anchored",
+            "transform": "none",
+            "element": {
+              "aid": "sh/8nmx8j61",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "Content-Placeholder-15-9",
+            "position": {
+              "left": 688.51,
+              "top": 506.94
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 549.78
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 102.67
+              }
+            },
+            "intrinsicSize": {
+              "width": 549.78,
+              "height": 102.67
+            },
+            "frame": {
+              "left": 688.51,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            },
+            "snappedFrame": {
+              "left": 688.51,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            },
+            "children": [],
+            "text": "도로·책상·벽면 방향을 추종카메라 이동 중 초점면 유지3D 거리로 블러 계산",
+            "transform": "none",
+            "element": {
+              "aid": "sh/nq9w3a5c",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "Content-Placeholder-15-10",
+            "position": {
+              "left": 42.09,
+              "top": 121.52
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 171.05
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 171.05
+            },
+            "frame": {
+              "left": 42.09,
+              "top": 121.52,
+              "width": 1197.33,
+              "height": 171.05
+            },
+            "snappedFrame": {
+              "left": 42.09,
+              "top": 121.52,
+              "width": 1197.33,
+              "height": 171.05
+            },
+            "children": [],
+            "text": "새로운 연구 문제일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/2p0vu5or",
+              "id": "9",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.17,
+              "width": 1197.33,
+              "height": 67.64
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 41.68,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 72.89,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 72.89,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 657.3,
+              "top": 350.56,
+              "width": 580.99,
+              "height": 138.67
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 688.51,
+              "top": 376.69,
+              "width": 523.56,
+              "height": 92.16
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 688.51,
+              "top": 506.94,
+              "width": 549.78,
+              "height": 102.67
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 42.09,
+              "top": 121.52,
+              "width": 1197.33,
+              "height": 171.05
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

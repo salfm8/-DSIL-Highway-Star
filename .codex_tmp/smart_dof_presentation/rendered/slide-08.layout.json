@@ -1,0 +1,1033 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vso0fb",
+    "id": "vso0fb",
+    "slide": 8,
+    "layoutId": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/id0zqlwb",
+      "id": "1",
+      "name": "Google-Shape-532-p58-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "8",
+      "textPreview": "8",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8",
+              "anchor": 3,
+              "fontSize": 13.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "right",
+              "verticalAlignment": "bottom",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50ri10fm",
+      "id": "2",
+      "name": "Google-Shape-533-p58-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다",
+      "textPreview": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다",
+              "anchor": 1,
+              "fontSize": 38.67,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kfihsve1",
+      "id": "3",
+      "name": "Picture-3-4-backing",
+      "bbox": [
+        658.17,
+        41.62,
+        581.6,
+        588.14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#EAF5FB",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/m507ud4v",
+      "id": "4",
+      "name": "Picture-3-4",
+      "bbox": [
+        658.17,
+        41.62,
+        581.6,
+        588.14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "roundRect",
+      "alt": "hero placeholder for Picture 3",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect"
+      },
+      "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text",
+      "isPlaceholder": true,
+      "asset": {
+        "assetId": "7afe83be-bd2d-40a7-a781-6e5e95497eb9",
+        "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text"
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9gzmlwz",
+      "id": "5",
+      "name": "Google-Shape-534-p58-5",
+      "bbox": [
+        41.33,
+        213.33,
+        581.33,
+        416
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "Focus Pull\n\n추적 신뢰도 저하 감지\n\n마지막 안정 객체 마스크와 초점 깊이 유지\n\n현재 프레임의 깊이로 블러맵 재계산\n\n약 1.5초 동안 블러 강도를 1 → 0으로 감쇠",
+      "textPreview": "Focus Pull |  | 추적 신뢰도 저하 감지 |  | 마지막 안정 객체 마스크와 초점 깊이 유지 |  | 현재 프레임의 깊이로 블러맵 재계산 |  | 약 1.5초 동안 블러 강도를 1 → 0으로 감쇠",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Focus Pull"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "추적 신뢰도 저하 감지"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "마지막 안정 객체 마스크와 초점 깊이 유지"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "현재 프레임의 깊이로 블러맵 재계산"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "약 1.5초 동안 블러 강도를 1 → 0으로 감쇠"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Focus Pull\n",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Focus Pull\n",
+              "anchor": 1,
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "추적 신뢰도 저하 감지\n\n마지막 안정 객체 마스크와 초점 깊이 유지\n\n현재 프레임의 깊이로 블러맵 재계산\n\n약 1.5초 동안 블러 강도를 1 → 0으로 감쇠",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "추적 신뢰도 저하 감지\n\n마지막 안정 객체 마스크와 초점 깊이 유지\n\n현재 프레임의 깊이로 블러맵 재계산\n\n약 1.5초 동안 블러 강도를 1 → 0으로 감쇠",
+              "anchor": 1,
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/872pwnml",
+      "id": "6",
+      "bbox": [
+        658,
+        145,
+        581,
+        403
+      ],
+      "geometry": "roundRect",
+      "alt": "타깃 이탈 후 포커스 풀링이 진행 중인 V10 프레임",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 1985"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "1a44fd5e-a499-42d3-a0d1-e340003e3c69",
+        "contentType": "image/png",
+        "byteLength": 351167
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbyhove5",
+      "id": "7",
+      "bbox": [
+        678,
+        165,
+        180,
+        38
+      ],
+      "geometry": "rect",
+      "fillColor": "#000000",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6p0r6xo",
+      "id": "8",
+      "bbox": [
+        690,
+        170,
+        160,
+        28
+      ],
+      "geometry": "rect",
+      "text": "FOCUS PULL",
+      "textPreview": "FOCUS PULL",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOCUS PULL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOCUS PULL",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOCUS PULL",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5gzi1g3",
+      "id": "9",
+      "bbox": [
+        682,
+        572,
+        520,
+        46
+      ],
+      "geometry": "rect",
+      "text": "TRACKED → TRANSITION → DEEP FOCUS",
+      "textPreview": "TRACKED → TRANSITION → DEEP FOCUS",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#000000",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TRACKED → TRANSITION → DEEP FOCUS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TRACKED → TRANSITION → DEEP FOCUS",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#000000",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TRACKED → TRANSITION → DEEP FOCUS",
+              "fontSize": 21,
+              "color": "#000000",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0naps329",
+      "id": "10",
+      "bbox": [
+        0,
+        0,
+        1280,
+        138
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj6l8ju",
+      "id": "11",
+      "bbox": [
+        41,
+        36,
+        1198,
+        70
+      ],
+      "geometry": "rect",
+      "text": "대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다",
+      "textPreview": "대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다",
+              "fontSize": 39,
+              "color": "#000000",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-08",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1239.77,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Google-Shape-532-p58-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "8",
+            "transform": "none",
+            "element": {
+              "aid": "sh/id0zqlwb",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Google-Shape-533-p58-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다",
+            "transform": "none",
+            "element": {
+              "aid": "sh/50ri10fm",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "Picture-3-4-backing",
+            "position": {
+              "left": 658.17,
+              "top": 41.62
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.6
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 588.14
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.6,
+              "height": 588.14
+            },
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "snappedFrame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "children": [],
+            "geometry": "roundRect",
+            "element": {
+              "aid": "sh/kfihsve1",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "image",
+            "name": "Picture-3-4",
+            "position": {
+              "left": 658.17,
+              "top": 41.62
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.6
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 588.14
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.6,
+              "height": 588.14
+            },
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "snappedFrame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "children": [],
+            "source": {
+              "kind": "prompt",
+              "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text"
+            },
+            "fit": "cover",
+            "alt": "hero placeholder for Picture 3",
+            "geometry": "roundRect",
+            "element": {
+              "aid": "im/m507ud4v",
+              "id": "4",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "Google-Shape-534-p58-5",
+            "position": {
+              "left": 41.33,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 416
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 416
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            },
+            "children": [],
+            "text": "Focus Pull\n추적 신뢰도 저하 감지\n\n마지막 안정 객체 마스크와 초점 깊이 유지\n\n현재 프레임의 깊이로 블러맵 재계산\n\n약 1.5초 동안 블러 강도를 1 → 0으로 감쇠",
+            "transform": "none",
+            "element": {
+              "aid": "sh/a9gzmlwz",
+              "id": "5",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

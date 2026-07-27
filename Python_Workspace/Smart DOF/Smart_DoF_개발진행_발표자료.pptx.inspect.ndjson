@@ -1,0 +1,173 @@
+{"kind":"deck","id":"pr/31iqyz","name":"Deck"}
+{"kind":"layout","layoutId":"b39ee131-7be5-4d37-a25f-8a7e115356e5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"2de434bd-5f6d-4efc-ab88-255abdd20821","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ks4n2a","slide":1,"title":"객체·깊이 인지형","textShapes":3}
+{"kind":"textbox","id":"sh/d4ridwr2","slide":1,"name":"Title-3-1","text":"객체·깊이 인지형\n시네마틱 포커스 렌더링","textPreview":"객체·깊이 인지형 | 시네마틱 포커스 렌더링","textChars":22,"textLines":2,"bbox":[41.33,182.55,992,261.57]}
+{"kind":"textbox","id":"sh/q10z2h8b","slide":1,"name":"Subtitle-4-2","text":"뎁스맵 이후 개발 진행 및 결과 · 2026.07.27","textPreview":"뎁스맵 이후 개발 진행 및 결과 · 2026.07.27","textChars":30,"textLines":1,"bbox":[41.33,497.87,598.67,113.41]}
+{"kind":"textbox","id":"sh/r290bm9w","slide":1,"name":"Subtitle-4-3","text":"SMART DOF","textPreview":"SMART DOF","textChars":9,"textLines":1,"bbox":[41.33,41.18,598.67,68.15]}
+{"kind":"notes","id":"nt/ks4n2a","slide":1,"text":"안녕하세요. 이번 발표에서는 이전에 공유드린 뎁스맵 영상 생성과 원본 비교 이후, 그 깊이 정보를 실제 영상 연출에 어떻게 활용했는지 말씀드리겠습니다. 목표는 사용자가 지정한 객체는 선명하게 유지하고, 주변은 거리 차이에 따라 자연스럽게 흐리며, 객체가 사라질 때에는 초점이 부드럽게 풀리는 시네마틱 DoF를 만드는 것이었습니다."}
+{"kind":"slide","id":"sl/dd2gf8","slide":2,"title":"2","textShapes":9}
+{"kind":"textbox","id":"sh/94f6hsfm","slide":2,"name":"Google-Shape-532-p58-2","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/m1o7mxgv","slide":2,"name":"Google-Shape-533-p58-3","text":"이전 발표에서는 영상의 상대 깊이를 시각화했습니다","textPreview":"이전 발표에서는 영상의 상대 깊이를 시각화했습니다","textChars":27,"textLines":1,"bbox":[41.33,36.17,1197.33,67.64]}
+{"kind":"shape","id":"sh/n2xofixg","slide":2,"name":"Rounded-Rectangle-1-4","bbox":[41.68,350.56,580.99,138.67]}
+{"kind":"textbox","id":"sh/w7qps7yx","slide":2,"name":"Content-Placeholder-10-5","text":"원본 영상","textPreview":"원본 영상","textChars":5,"textLines":1,"bbox":[72.89,376.69,523.56,92.16]}
+{"kind":"textbox","id":"sh/x8z6lcfi","slide":2,"name":"Content-Placeholder-15-6","text":"RGB 장면\n854 × 480\n주행 영상 입력","textPreview":"RGB 장면 | 854 × 480 | 주행 영상 입력","textChars":25,"textLines":3,"bbox":[72.89,506.94,549.78,102.67]}
+{"kind":"shape","id":"sh/a5o7qxgr","slide":2,"name":"Rounded-Rectangle-7-7","bbox":[657.3,350.56,580.99,138.67]}
+{"kind":"textbox","id":"sh/b6xoj2xc","slide":2,"name":"Content-Placeholder-10-8","text":"뎁스맵 영상","textPreview":"뎁스맵 영상","textChars":6,"textLines":1,"bbox":[688.51,376.69,523.56,92.16]}
+{"kind":"textbox","id":"sh/cbm5g3yt","slide":2,"name":"Content-Placeholder-15-9","text":"상대 깊이\n프레임별 추정\nDoF 계산 기반","textPreview":"상대 깊이 | 프레임별 추정 | DoF 계산 기반","textChars":23,"textLines":3,"bbox":[688.51,506.94,549.78,102.67]}
+{"kind":"textbox","id":"sh/dcv698ze","slide":2,"name":"Content-Placeholder-15-10","text":"출발점\nDepth Anything을 이용해 주행 영상의 프레임별 상대 깊이를 추정했습니다.\n가까운 보닛·도로와 먼 건물·하늘이 서로 다른 값으로 분리되는 것을 확인했습니다.","textPreview":"출발점 | Depth Anything을 이용해 주행 영상의 프레임별 상대 깊이를 추정했습니다. | 가까운 보닛·도로와 먼 건물·하늘이 서로 다른 값으로 분리되는 것을 확인했습니다.","textChars":96,"textLines":3,"bbox":[42.09,121.52,1197.33,171.05]}
+{"kind":"shape","id":"sh/vmdsrep0","slide":2,"bbox":[56,341,150,38]}
+{"kind":"textbox","id":"sh/ul4bi9of","slide":2,"text":"ORIGINAL","textPreview":"ORIGINAL","textChars":8,"textLines":1,"bbox":[68,346,130,28]}
+{"kind":"shape","id":"sh/5sfaxo72","slide":2,"bbox":[671,341,170,38]}
+{"kind":"textbox","id":"sh/4r6toj6h","slide":2,"text":"DEPTH MAP","textPreview":"DEPTH MAP","textChars":9,"textLines":1,"bbox":[683,346,150,28]}
+{"kind":"image","id":"im/q1kvap0z","slide":2,"name":"","geometry":"roundRect","alt":"원본 주행 영상 대표 프레임","bbox":[42,327,581,180]}
+{"kind":"image","id":"im/b2tcjuhk","slide":2,"name":"","geometry":"roundRect","alt":"Depth Anything 상대 깊이맵 대표 프레임","bbox":[657,327,581,180]}
+{"kind":"notes","id":"nt/dd2gf8","slide":2,"text":"이전 발표의 마지막 결과입니다. 왼쪽은 원본 영상이고 오른쪽은 같은 시점의 뎁스맵입니다. 보닛과 가까운 도로는 밝게, 원거리 건물과 하늘은 어둡게 표현됩니다. 여기까지는 장면의 거리 관계를 알아낸 단계였습니다. 이번 개발에서는 이 깊이 정보를 이용해 사용자가 원하는 객체에 초점을 맞추는 영상 효과로 확장했습니다.\n\n[Sources]\n- Local project frame: 0720 Pitch/sample_38_short.mp4\n- Local project frame: 0720 Pitch/depth_output.mp4"}
+{"kind":"slide","id":"sl/5jsiv0","slide":3,"title":"3","textShapes":6}
+{"kind":"textbox","id":"sh/hgnyt8ni","slide":3,"name":"Google-Shape-532-p58-2","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/udwfytor","slide":3,"name":"Google-Shape-533-p58-3","text":"깊이 정보에 ‘사용자의 초점 의도’를 결합했습니다","textPreview":"깊이 정보에 ‘사용자의 초점 의도’를 결합했습니다","textChars":27,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/ve5gry5c","slide":3,"name":"Picture-3-4-backing","bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"textbox","id":"sh/9cnyp8n6","slide":3,"name":"Google-Shape-534-p58-5","text":"목표\n\n① 롯데마트 건물을 초점 대상으로 선택\n\n② 선택 객체는 안정적으로 선명하게 유지\n\n③ 주변은 깊이·거리 차이에 따라 점진적으로 흐림\n\n④ 대상이 사라지면 약 1.5초 동안 Deep Focus로 복귀","textPreview":"목표 |  | ① 롯데마트 건물을 초점 대상으로 선택 |  | ② 선택 객체는 안정적으로 선명하게 유지 |  | ③ 주변은 깊이·거리 차이에 따라 점진적으로 흐림 |  | ④ 대상이 사라지면 약 1.5초 동안 Deep Focus로 복귀","textChars":115,"textLines":9,"bbox":[41.33,213.33,581.33,416]}
+{"kind":"shape","id":"sh/7algny50","slide":3,"bbox":[678,165,245,38]}
+{"kind":"textbox","id":"sh/knuxsj6p","slide":3,"text":"TARGET: LOTTE MART","textPreview":"TARGET: LOTTE MART","textChars":18,"textLines":1,"bbox":[690,170,225,28]}
+{"kind":"textbox","id":"sh/lo3elona","slide":3,"text":"객체를 단순히 잘라내는 효과가 아니라,\n시선의 중심을 설계하는 후처리","textPreview":"객체를 단순히 잘라내는 효과가 아니라, | 시선의 중심을 설계하는 후처리","textChars":38,"textLines":2,"bbox":[680,565,520,70]}
+{"kind":"shape","id":"sh/14jixore","slide":3,"bbox":[0,0,1280,138]}
+{"kind":"textbox","id":"sh/g3ah4jqt","slide":3,"text":"깊이 정보에 사용자의 초점 의도를 더했습니다","textPreview":"깊이 정보에 사용자의 초점 의도를 더했습니다","textChars":24,"textLines":1,"bbox":[41,36,1198,70]}
+{"kind":"image","id":"im/d0jmt4nu","slide":3,"name":"Picture-3-4","geometry":"roundRect","alt":"hero placeholder for Picture 3","prompt":"Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text","isPlaceholder":true,"bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"image","id":"im/byh4ru5o","slide":3,"name":"","geometry":"roundRect","alt":"롯데마트를 초점 대상으로 렌더링한 V10 프레임","bbox":[658,145,581,403]}
+{"kind":"notes","id":"nt/5jsiv0","slide":3,"text":"새로운 목표는 깊이맵 전체를 보여주는 것이 아니라 사용자가 원하는 대상을 초점의 중심으로 만드는 것이었습니다. 이번 영상에서는 롯데마트 건물을 선택했습니다. 건물은 선명하게 유지하고, 주변은 건물과의 깊이 및 공간적 거리에 따라 흐리게 했습니다. 그리고 건물이 화면에서 사라질 때 효과가 갑자기 꺼지지 않고 약 1.5초 동안 자연스럽게 전체 초점으로 돌아가게 했습니다.\n\n[Sources]\n- Local project frame: Python_Workspace/Smart DOF/step14_v10_progressive_focus.mp4"}
+{"kind":"slide","id":"sl/8w36sz","slide":4,"title":"4","textShapes":8}
+{"kind":"textbox","id":"sh/twbm5cf2","slide":4,"name":"Slide-Number-Placeholder-3-2","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/6tk3ahgr","slide":4,"name":"Title-10-3","text":"인식·안정화·렌더링의 세 단계로 구성했습니다","textPreview":"인식·안정화·렌더링의 세 단계로 구성했습니다","textChars":24,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/7ut43mxc","slide":4,"name":"Google-Shape-2259-p159-4","bbox":[35.46,560.8,1285.61,0.03]}
+{"kind":"shape","id":"sh/gzm5gryt","slide":4,"name":"Google-Shape-2260-p159-5","bbox":[35.46,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/h0vm9wfe","slide":4,"name":"Google-Shape-2261-p159-6","bbox":[446.38,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/ux4nehgn","slide":4,"name":"Google-Shape-2262-p159-7","bbox":[858.38,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/vyd47mx8","slide":4,"name":"Rounded-Rectangle-19-8","bbox":[41.33,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/w3il47yp","slide":4,"name":"Content-Placeholder-8-9","text":"1. 장면 인식\n\nDepth Anything\n상대 깊이 추정\n\nMobileSAM\n선택 객체 마스크 생성","textPreview":"1. 장면 인식 |  | Depth Anything | 상대 깊이 추정 |  | MobileSAM | 선택 객체 마스크 생성","textChars":57,"textLines":7,"bbox":[73.85,189.69,309.64,269.48]}
+{"kind":"shape","id":"sh/x4rmxsza","slide":4,"name":"Rounded-Rectangle-21-10","bbox":[452.33,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/h47apwbu","slide":4,"name":"Content-Placeholder-8-11","text":"2. 시간 안정화\n\nOptical Flow\n객체 이동 추적\n\n전후 검증·EMA\n깜빡임과 오추적 억제","textPreview":"2. 시간 안정화 |  | Optical Flow | 객체 이동 추적 |  | 전후 검증·EMA | 깜빡임과 오추적 억제","textChars":55,"textLines":7,"bbox":[484.85,189.69,309.64,269.48]}
+{"kind":"shape","id":"sh/g3y9gra9","slide":4,"name":"Rounded-Rectangle-23-12","bbox":[864.83,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/v2psnmto","slide":4,"name":"Content-Placeholder-8-13","text":"3. 시네마틱 렌더링\n\n상대 깊이 기반 블러맵\n객체 경계 feathering\n\n다단 가변 블러\nCosine Focus Pull","textPreview":"3. 시네마틱 렌더링 |  | 상대 깊이 기반 블러맵 | 객체 경계 feathering |  | 다단 가변 블러 | Cosine Focus Pull","textChars":70,"textLines":7,"bbox":[897.35,189.69,309.64,269.48]}
+{"kind":"textbox","id":"sh/u1grehs3","slide":4,"name":"Text-Placeholder-16-14","text":"STABILIZATION","textPreview":"STABILIZATION","textChars":13,"textLines":1,"bbox":[446.38,588.18,272.54,41.15]}
+{"kind":"textbox","id":"sh/p8ratgbq","slide":4,"name":"Text-Placeholder-16-15","text":"PERCEPTION","textPreview":"PERCEPTION","textChars":10,"textLines":1,"bbox":[41.04,588.18,272.54,41.15]}
+{"kind":"textbox","id":"sh/47i9kbal","slide":4,"name":"Text-Placeholder-16-16","text":"RENDERING","textPreview":"RENDERING","textChars":9,"textLines":1,"bbox":[863.56,588.18,272.54,41.15]}
+{"kind":"notes","id":"nt/8w36sz","slide":4,"text":"시스템은 크게 세 단계입니다. 첫째, Depth Anything으로 장면의 상대 깊이를 추정하고 MobileSAM으로 사용자가 선택한 객체의 마스크를 만듭니다. 둘째, Optical Flow로 객체의 움직임을 추적하고 전진·역방향 검증과 EMA를 사용해 프레임 간 흔들림을 줄입니다. 셋째, 깊이 차이와 객체 경계 거리를 결합해 블러맵을 만들고, 여러 블러 반경을 픽셀별로 보간해 최종 영상을 렌더링합니다."}
+{"kind":"slide","id":"sl/0k44q4","slide":5,"title":"5","textShapes":8}
+{"kind":"textbox","id":"sh/i5ovy5o3","slide":5,"name":"Slide-Number-Placeholder-3-2","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/58zetknu","slide":5,"name":"Title-10-3","text":"버전 반복을 통해 ‘강한 필터’에서 ‘연속적인 초점’으로 개선했습니다","textPreview":"버전 반복을 통해 ‘강한 필터’에서 ‘연속적인 초점’으로 개선했습니다","textChars":38,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/47qd0f69","slide":5,"name":"Google-Shape-2259-p159-4","bbox":[35.46,354.2,1285.61,0.03]}
+{"kind":"shape","id":"sh/vixcnq5s","slide":5,"name":"Google-Shape-2260-p159-5","bbox":[35.46,348.58,11.24,11.24]}
+{"kind":"shape","id":"sh/uhovulo7","slide":5,"name":"Google-Shape-2261-p159-6","bbox":[446.38,348.58,11.24,11.24]}
+{"kind":"shape","id":"sh/h4fup0ny","slide":5,"name":"Google-Shape-2262-p159-7","bbox":[858.38,348.58,11.24,11.24]}
+{"kind":"textbox","id":"sh/gj6dwv6d","slide":5,"name":"Content-Placeholder-15-8","text":"V6","textPreview":"V6","textChars":2,"textLines":1,"bbox":[41.33,298.51,169.33,27.55]}
+{"kind":"textbox","id":"sh/fe1wzu5w","slide":5,"name":"Content-Placeholder-15-9","text":"V8–V9","textPreview":"V8–V9","textChars":5,"textLines":1,"bbox":[450.83,298.51,169.33,27.55]}
+{"kind":"textbox","id":"sh/ed8v6pob","slide":5,"name":"Content-Placeholder-15-10","text":"V10","textPreview":"V10","textChars":3,"textLines":1,"bbox":[863.33,298.51,169.33,27.55]}
+{"kind":"textbox","id":"sh/wzupsf69","slide":5,"name":"Text-Placeholder-16-11","text":"자연스러운 전환\n\n영역 프롬프트·연속 블러\n대상 유실 후 Focus Pull","textPreview":"자연스러운 전환 |  | 영역 프롬프트·연속 블러 | 대상 유실 후 Focus Pull","textChars":42,"textLines":4,"bbox":[453.24,401.33,331.35,166.54]}
+{"kind":"textbox","id":"sh/x0361k7u","slide":5,"name":"Text-Placeholder-16-12","text":"객체 분리\n\nSAM 기반 초점 보호\n경계가 단단하고 블러가 과도함","textPreview":"객체 분리 |  | SAM 기반 초점 보호 | 경계가 단단하고 블러가 과도함","textChars":36,"textLines":4,"bbox":[41.98,401.33,331.35,166.54]}
+{"kind":"textbox","id":"sh/axc7q5o3","slide":5,"name":"Text-Placeholder-16-13","text":"점진적 블러\n\n1px 단위 블러 반경\n넓고 세밀한 강도 분포","textPreview":"점진적 블러 |  | 1px 단위 블러 반경 | 넓고 세밀한 강도 분포","textChars":33,"textLines":4,"bbox":[858.57,401.33,331.35,166.54]}
+{"kind":"notes","id":"nt/0k44q4","slide":5,"text":"개선은 한 번에 이루어지지 않았습니다. V6에서는 SAM을 이용해 객체를 보호했지만 객체만 도려낸 듯한 경계와 강한 배경 블러가 나타났습니다. V8과 V9에서는 건물 전체를 선택할 수 있도록 영역 프롬프트를 추가하고, 블러 신호를 부드럽게 결합했으며, 대상 이탈 후 Focus Pull을 구현했습니다. V10에서는 블러 강도가 1에서 10까지 더 촘촘하게 증가하도록 곡선과 렌더 반경을 다시 설계했습니다."}
+{"kind":"slide","id":"sl/io1pqr","slide":6,"title":"6","textShapes":6}
+{"kind":"textbox","id":"sh/g3ypgvu5","slide":6,"name":"Slide-Number-Placeholder-1-2","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1184.17,659.17,54.5,25.33]}
+{"kind":"textbox","id":"sh/v2po7qtk","slide":6,"name":"Title-2-3","text":"자연스러움을 결정한 네 가지 핵심 개선","textPreview":"자연스러움을 결정한 네 가지 핵심 개선","textChars":21,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"textbox","id":"sh/u1wnelcz","slide":6,"name":"Content-Placeholder-9-4","text":"객체 전체 선택\n\n점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의","textPreview":"객체 전체 선택 |  | 점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의","textChars":50,"textLines":3,"bbox":[41.33,213.33,581.33,172.5]}
+{"kind":"textbox","id":"sh/90n65gbe","slide":6,"name":"Content-Placeholder-10-5","text":"부드러운 경계\n\n거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결","textPreview":"부드러운 경계 |  | 거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결","textChars":54,"textLines":3,"bbox":[656.86,213.33,581.33,172.5]}
+{"kind":"textbox","id":"sh/8ze5cbut","slide":6,"name":"Content-Placeholder-9-6","text":"점진적 강도\n\n중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배","textPreview":"점진적 강도 |  | 중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배","textChars":46,"textLines":3,"bbox":[41.33,421.73,581.33,172.51]}
+{"kind":"textbox","id":"sh/7y5o36t8","slide":6,"name":"Content-Placeholder-10-7","text":"자연스러운 해제\n\n마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용","textPreview":"자연스러운 해제 |  | 마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용","textChars":50,"textLines":3,"bbox":[656.86,421.73,581.33,172.51]}
+{"kind":"notes","id":"nt/io1pqr","slide":6,"text":"자연스러움을 개선한 핵심은 네 가지입니다. 먼저 단일 점이 아니라 박스와 긍정·부정 포인트를 함께 사용해 롯데마트 건물 전체를 선택했습니다. 다음으로 거리 기반 feathering을 넓혀 경계를 부드럽게 했습니다. 세 번째로 깊이 차이와 객체 거리에 따른 블러를 긴 구간에 나누어 1, 2, 3처럼 점진적으로 증가하도록 했습니다. 마지막으로 대상이 사라질 때 마지막 안정 마스크와 초점 깊이를 기준으로 cosine easing을 적용했습니다."}
+{"kind":"slide","id":"sl/g6wlns","slide":7,"title":"7","textShapes":5}
+{"kind":"textbox","id":"sh/xkr258zi","slide":7,"name":"Google-Shape-532-p58-2","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/ahgjatgr","slide":7,"name":"Google-Shape-533-p58-3","text":"V10에서는 중간 거리의 블러가 더 세밀하게 분포합니다","textPreview":"V10에서는 중간 거리의 블러가 더 세밀하게 분포합니다","textChars":30,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/bipk3yhc","slide":7,"name":"Picture-3-4-backing","bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"textbox","id":"sh/l8r29sze","slide":7,"name":"Google-Shape-534-p58-5","text":"V9 → V10\n\nV9는 초점 대상과 배경의 분리는 명확했지만 중간 블러 강도가 빠르게 증가했습니다.\n\nV10은 블러 곡선을 넓히고 1px 단위 반경을 보간해 도로·차량·원경 사이의 변화가 더 점진적으로 이어집니다.","textPreview":"V9 → V10 |  | V9는 초점 대상과 배경의 분리는 명확했지만 중간 블러 강도가 빠르게 증가했습니다. |  | V10은 블러 곡선을 넓히고 1px 단위 반경을 보간해 도로·차량·원경 사이의 변화가 더 점진적으로 이어집니다.","textChars":120,"textLines":5,"bbox":[41.33,213.33,581.33,416]}
+{"kind":"textbox","id":"sh/jm9k7ih8","slide":7,"text":"핵심 변화: ‘선명 / 흐림’의 이분법에서 연속적인 초점 깊이 표현으로","textPreview":"핵심 변화: ‘선명 / 흐림’의 이분법에서 연속적인 초점 깊이 표현으로","textChars":39,"textLines":1,"bbox":[140,557,1000,54]}
+{"kind":"shape","id":"sh/0re14jyp","slide":7,"bbox":[0,0,1280,138]}
+{"kind":"textbox","id":"sh/1sn2xoza","slide":7,"text":"V10은 블러 강도를 더 촘촘하게 분배합니다","textPreview":"V10은 블러 강도를 더 촘촘하게 분배합니다","textChars":24,"textLines":1,"bbox":[41,36,1198,70]}
+{"kind":"image","id":"im/x0fi9c36","slide":7,"name":"Picture-3-4","geometry":"roundRect","alt":"hero placeholder for Picture 3","prompt":"Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text","isPlaceholder":true,"bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"image","id":"im/byd072l0","slide":7,"name":"","geometry":"roundRect","alt":"V9와 V10의 동일 프레임 비교","bbox":[42,190,1196,336]}
+{"kind":"notes","id":"nt/g6wlns","slide":7,"text":"왼쪽이 V9, 오른쪽이 V10입니다. 두 영상 모두 롯데마트를 선명하게 유지하지만 V10에서는 타깃 근처, 도로 중앙, 전경, 먼 배경의 블러 강도가 더 촘촘하게 분배됩니다. 이번 단계의 핵심은 단순히 블러를 약하게 만든 것이 아니라, 선명 영역에서 최대 블러까지 도달하는 중간 값을 더 많이 확보한 것입니다.\n\n[Sources]\n- Local comparison frame: Python_Workspace/Smart DOF/phase14_v9_v10_progressive_focus_comparison.mp4"}
+{"kind":"slide","id":"sl/vso0fb","slide":8,"title":"8","textShapes":6}
+{"kind":"textbox","id":"sh/id0zqlwb","slide":8,"name":"Google-Shape-532-p58-2","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/50ri10fm","slide":8,"name":"Google-Shape-533-p58-3","text":"대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다","textPreview":"대상이 사라지면 효과가 꺼지지 않고 초점이 풀립니다","textChars":28,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/kfihsve1","slide":8,"name":"Picture-3-4-backing","bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"textbox","id":"sh/a9gzmlwz","slide":8,"name":"Google-Shape-534-p58-5","text":"Focus Pull\n\n추적 신뢰도 저하 감지\n\n마지막 안정 객체 마스크와 초점 깊이 유지\n\n현재 프레임의 깊이로 블러맵 재계산\n\n약 1.5초 동안 블러 강도를 1 → 0으로 감쇠","textPreview":"Focus Pull |  | 추적 신뢰도 저하 감지 |  | 마지막 안정 객체 마스크와 초점 깊이 유지 |  | 현재 프레임의 깊이로 블러맵 재계산 |  | 약 1.5초 동안 블러 강도를 1 → 0으로 감쇠","textChars":99,"textLines":9,"bbox":[41.33,213.33,581.33,416]}
+{"kind":"shape","id":"sh/wbyhove5","slide":8,"bbox":[678,165,180,38]}
+{"kind":"textbox","id":"sh/n6p0r6xo","slide":8,"text":"FOCUS PULL","textPreview":"FOCUS PULL","textChars":10,"textLines":1,"bbox":[690,170,160,28]}
+{"kind":"textbox","id":"sh/m5gzi1g3","slide":8,"text":"TRACKED → TRANSITION → DEEP FOCUS","textPreview":"TRACKED → TRANSITION → DEEP FOCUS","textChars":33,"textLines":1,"bbox":[682,572,520,46]}
+{"kind":"shape","id":"sh/0naps329","slide":8,"bbox":[0,0,1280,138]}
+{"kind":"textbox","id":"sh/loj6l8ju","slide":8,"text":"대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다","textPreview":"대상 이탈 후 1.5초 동안 초점을 자연스럽게 풉니다","textChars":29,"textLines":1,"bbox":[41,36,1198,70]}
+{"kind":"image","id":"im/m507ud4v","slide":8,"name":"Picture-3-4","geometry":"roundRect","alt":"hero placeholder for Picture 3","prompt":"Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text","isPlaceholder":true,"bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"image","id":"im/872pwnml","slide":8,"name":"","geometry":"roundRect","alt":"타깃 이탈 후 포커스 풀링이 진행 중인 V10 프레임","bbox":[658,145,581,403]}
+{"kind":"notes","id":"nt/vso0fb","slide":8,"text":"기존 버전에서는 객체가 사라지는 순간 블러가 갑자기 해제됐습니다. 현재는 Optical Flow의 신뢰도가 떨어지면 잘못된 마스크를 새로 만들지 않고 전환 상태로 들어갑니다. 마지막 안정 객체 마스크와 초점 깊이를 잠시 유지하면서 현재 프레임의 깊이로 블러맵을 다시 계산하고, 약 1.5초 동안 강도를 1에서 0으로 줄여 Deep Focus로 복귀합니다.\n\n[Sources]\n- Local project frame: Python_Workspace/Smart DOF/step14_v10_progressive_focus.mp4"}
+{"kind":"slide","id":"sl/fksfgv","slide":9,"title":"9","textShapes":6}
+{"kind":"textbox","id":"sh/nedk7mxo","slide":9,"name":"Google-Shape-532-p58-2","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/of61gre9","slide":9,"name":"Google-Shape-533-p58-3","text":"코어 기능은 갖추었고, 다음 연구 질문이 명확해졌습니다","textPreview":"코어 기능은 갖추었고, 다음 연구 질문이 명확해졌습니다","textChars":30,"textLines":1,"bbox":[41.33,36.17,1197.33,134.7]}
+{"kind":"shape","id":"sh/pgf29wfu","slide":9,"name":"Rounded-Rectangle-9-4","bbox":[452.38,353.33,374.67,276]}
+{"kind":"shape","id":"sh/ep4jahg7","slide":9,"name":"Rounded-Rectangle-10-5","bbox":[864,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/fqdk3mxs","slide":9,"name":"Content-Placeholder-9-6","text":"서비스 확장\nFocus Director\n복수 객체 전환\nDoF 프리셋·타임라인","textPreview":"서비스 확장 | Focus Director | 복수 객체 전환 | DoF 프리셋·타임라인","textChars":43,"textLines":4,"bbox":[485.23,435.29,309.64,150.43]}
+{"kind":"textbox","id":"sh/0rm1cred","slide":9,"name":"Content-Placeholder-10-7","text":"연구 확장\n3D Scene-Anchored\nFocal Plane\n시간 일관적 렌더링","textPreview":"연구 확장 | 3D Scene-Anchored | Focal Plane | 시간 일관적 렌더링","textChars":46,"textLines":4,"bbox":[896.18,435.29,309.64,150.43]}
+{"kind":"shape","id":"sh/1cv25wfy","slide":9,"name":"Google-Shape-340-p61-8","bbox":[485.84,387.83,24.55,24.54]}
+{"kind":"shape","id":"sh/qlkj6xgb","slide":9,"name":"Google-Shape-340-p61-9","bbox":[895.88,387.83,24.55,24.54]}
+{"kind":"shape","id":"sh/rmtkz2xw","slide":9,"name":"Rounded-Rectangle-5-10","bbox":[40.77,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/z61o3eho","slide":9,"name":"Content-Placeholder-9-11","text":"현재 한계\n단안 깊이의 흔들림\n가림 경계의 halo\n장면별 수동 프롬프트","textPreview":"현재 한계 | 단안 깊이의 흔들림 | 가림 경계의 halo | 장면별 수동 프롬프트","textChars":40,"textLines":4,"bbox":[73.61,435.29,309.64,150.43]}
+{"kind":"shape","id":"sh/y5sna90j","slide":9,"name":"Google-Shape-340-p61-12","bbox":[74.23,387.83,24.55,24.54]}
+{"kind":"textbox","id":"sh/lsj654zu","slide":9,"name":"Content-Placeholder-15-13","text":"현재 확보한 기능\n객체 선택, 객체 추적, 깊이 기반 공간가변 블러, 점진적 강도, 대상 이탈 후 Focus Pull까지 하나의 파이프라인으로 연결했습니다.\n","textPreview":"현재 확보한 기능 | 객체 선택, 객체 추적, 깊이 기반 공간가변 블러, 점진적 강도, 대상 이탈 후 Focus Pull까지 하나의 파이프라인으로 연결했습니다. |","textChars":88,"textLines":3,"bbox":[41.33,152.29,1197.33,171.05]}
+{"kind":"notes","id":"nt/fksfgv","slide":9,"text":"현재 코어 기능은 하나의 파이프라인으로 연결됐습니다. 다만 단안 깊이의 프레임 간 흔들림, 가림 경계의 halo, 장면별 프롬프트 설정은 아직 개선 과제입니다. 서비스 관점에서는 Focus Director를 통해 여러 객체의 초점 전환과 DoF 강도를 타임라인으로 편집하는 방향을 생각하고 있습니다. 연구 관점에서는 화면 좌표가 아니라 3차원 장면에 초점면을 고정하는 Scene-Anchored Focal Plane으로 확장할 계획입니다."}
+{"kind":"slide","id":"sl/cq3ynz","slide":10,"title":"10","textShapes":7}
+{"kind":"textbox","id":"sh/yhkf2poz","slide":10,"name":"Google-Shape-532-p58-2","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/lkved4na","slide":10,"name":"Google-Shape-533-p58-3","text":"2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다","textPreview":"2D 블러 띠는 실제 장면의 방향과 움직임을 이해하지 못합니다","textChars":34,"textLines":1,"bbox":[41.33,36.17,1197.33,67.64]}
+{"kind":"shape","id":"sh/kjmx4z65","slide":10,"name":"Rounded-Rectangle-1-4","bbox":[41.68,350.56,580.99,138.67]}
+{"kind":"textbox","id":"sh/7mdwfe5g","slide":10,"name":"Content-Placeholder-10-5","text":"2D Screen-Anchored","textPreview":"2D Screen-Anchored","textChars":18,"textLines":1,"bbox":[72.89,376.69,523.56,92.16]}
+{"kind":"textbox","id":"sh/6l4f69ov","slide":10,"name":"Content-Placeholder-15-6","text":"같은 도로면도 서로 다른 블러\n카메라 이동 시 초점 띠 고정\n장면 기하와 불일치","textPreview":"같은 도로면도 서로 다른 블러 | 카메라 이동 시 초점 띠 고정 | 장면 기하와 불일치","textChars":44,"textLines":3,"bbox":[72.89,506.94,549.78,102.67]}
+{"kind":"shape","id":"sh/toveh4nm","slide":10,"name":"Rounded-Rectangle-7-7","bbox":[657.3,350.56,580.99,138.67]}
+{"kind":"textbox","id":"sh/8nmx8j61","slide":10,"name":"Content-Placeholder-10-8","text":"3D Scene-Anchored","textPreview":"3D Scene-Anchored","textChars":17,"textLines":1,"bbox":[688.51,376.69,523.56,92.16]}
+{"kind":"textbox","id":"sh/nq9w3a5c","slide":10,"name":"Content-Placeholder-15-9","text":"도로·책상·벽면 방향을 추종\n카메라 이동 중 초점면 유지\n3D 거리로 블러 계산","textPreview":"도로·책상·벽면 방향을 추종 | 카메라 이동 중 초점면 유지 | 3D 거리로 블러 계산","textChars":44,"textLines":3,"bbox":[688.51,506.94,549.78,102.67]}
+{"kind":"textbox","id":"sh/2p0vu5or","slide":10,"name":"Content-Placeholder-15-10","text":"새로운 연구 문제\n일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다.\n","textPreview":"새로운 연구 문제 | 일반적인 디지털 Tilt 효과는 화면 중심선과의 거리로 블러를 정합니다. 따라서 도로가 기울어지거나 카메라가 이동하면 초점 영역이 장면이 아니라 화면에 붙어 보입니다. |","textChars":104,"textLines":3,"bbox":[42.09,121.52,1197.33,171.05]}
+{"kind":"notes","id":"nt/cq3ynz","slide":10,"text":"여기서 다음 연구 문제로 넘어갑니다. 일반적인 디지털 Tilt-Shift 효과는 화면 위에 선명한 띠를 하나 그린 뒤 그 선에서 멀어질수록 블러를 증가시킵니다. 하지만 도로는 실제로 하나의 3차원 평면입니다. 화면 좌표만 사용하면 같은 도로 위의 점들이 서로 다른 블러를 받고, 카메라가 움직여도 초점 띠는 모니터 화면에 붙어 있는 것처럼 보입니다. 제안 방향은 화면이 아니라 실제 장면의 3차원 면에 초점을 고정하는 것입니다."}
+{"kind":"slide","id":"sl/0tbjek","slide":11,"title":"11","textShapes":8}
+{"kind":"textbox","id":"sh/mto7ixcf","slide":11,"name":"Google-Shape-532-p58-2","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/9wfqdcb6","slide":11,"name":"Google-Shape-533-p58-3","text":"Tilt 렌즈는 초점면을 카메라와 평행하지 않게 만듭니다","textPreview":"Tilt 렌즈는 초점면을 카메라와 평행하지 않게 만듭니다","textChars":31,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/ov6pk7ul","slide":11,"name":"Picture-3-4-backing","bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"textbox","id":"sh/ep47excj","slide":11,"name":"Google-Shape-534-p58-5","text":"핵심 원리\n\n일반 렌즈\n카메라와 평행한 초점면\n\nTilt 렌즈\n렌즈면을 기울여 초점면을 회전\n\n결과\n도로·책상처럼 기울어진 실제 면을 따라 선명도 유지\n\n※ 현재 연구 범위는 Tilt이며, Shift에 의한 프레이밍 이동은 제외","textPreview":"핵심 원리 |  | 일반 렌즈 | 카메라와 평행한 초점면 |  | Tilt 렌즈 | 렌즈면을 기울여 초점면을 회전 |  | 결과 | 도로·책상처럼 기울어진 실제 면을 따라 선명도 유지 |  | ※ 현재 연구 범위는 Tilt이며, Shift에 의한...","textChars":127,"textLines":12,"bbox":[41.33,213.33,581.33,416]}
+{"kind":"shape","id":"sh/1svq9svu","slide":11,"bbox":[705,180,425,380]}
+{"kind":"shape","id":"sh/0rmpgnu9","slide":11,"bbox":[965,260,165,300]}
+{"kind":"shape","id":"sh/r2d83ids","slide":11,"bbox":[1130,205,0,355]}
+{"kind":"shape","id":"sh/q147adc7","slide":11,"bbox":[680,560,500,0]}
+{"kind":"textbox","id":"sh/gje103m9","slide":11,"text":"기울어진 초점면","textPreview":"기울어진 초점면","textChars":8,"textLines":1,"bbox":[690,150,230,40]}
+{"kind":"textbox","id":"sh/1kn2983u","slide":11,"text":"렌즈면","textPreview":"렌즈면","textChars":3,"textLines":1,"bbox":[925,225,120,40]}
+{"kind":"textbox","id":"sh/ehwjyt43","slide":11,"text":"이미지면","textPreview":"이미지면","textChars":4,"textLines":1,"bbox":[1120,160,115,40]}
+{"kind":"textbox","id":"sh/fi5k7ylo","slide":11,"text":"세 면의 연장선이 만나는 관계를 이용해\n장면의 초점 방향을 회전","textPreview":"세 면의 연장선이 만나는 관계를 이용해 | 장면의 초점 방향을 회전","textChars":35,"textLines":2,"bbox":[725,585,455,65]}
+{"kind":"shape","id":"sh/svu1w3md","slide":11,"bbox":[0,0,1280,138]}
+{"kind":"textbox","id":"sh/tgn25o3y","slide":11,"text":"Tilt 렌즈는 기울어진 3D 초점면을 만듭니다","textPreview":"Tilt 렌즈는 기울어진 3D 초점면을 만듭니다","textChars":26,"textLines":1,"bbox":[41,36,1198,70]}
+{"kind":"image","id":"im/ehk7edc7","slide":11,"name":"Picture-3-4","geometry":"roundRect","alt":"hero placeholder for Picture 3","prompt":"Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text","isPlaceholder":true,"bbox":[658.17,41.62,581.6,588.14]}
+{"kind":"notes","id":"nt/0tbjek","slide":11,"text":"실제 Tilt 렌즈에서는 렌즈면을 기울여 초점면을 카메라와 평행하지 않게 회전시킬 수 있습니다. 이미지면, 렌즈면, 초점면의 기하학적 관계는 Scheimpflug 원리로 설명됩니다. 이를 이용하면 도로나 책상처럼 카메라에서 멀어지는 면을 따라 선명도를 유지할 수 있습니다. 여기서 Tilt는 초점면을 회전하는 기능이고 Shift는 프레이밍과 원근을 조절하는 기능입니다. 이번 연구는 우선 Tilt, 즉 기울어진 초점면의 후처리 렌더링에 집중합니다.\n\n[Sources]\n- A Versatile Camera Model for Cameras with Tilt Lenses, IJCV: https://link.springer.com/article/10.1007/s11263-016-0964-8"}
+{"kind":"slide","id":"sl/6siwtk","slide":12,"title":"12","textShapes":8}
+{"kind":"textbox","id":"sh/s3uhk7e5","slide":12,"name":"Slide-Number-Placeholder-3-2","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/r2lgr2dk","slide":12,"name":"Title-10-3","text":"일반 영상에 가상의 3D 초점면을 삽입합니다","textPreview":"일반 영상에 가상의 3D 초점면을 삽입합니다","textChars":24,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"shape","id":"sh/61czixwz","slide":12,"name":"Google-Shape-2259-p159-4","bbox":[35.46,560.8,1285.61,0.03]}
+{"kind":"shape","id":"sh/503ypsve","slide":12,"name":"Google-Shape-2260-p159-5","bbox":[35.46,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/4zuxgnet","slide":12,"name":"Google-Shape-2261-p159-6","bbox":[446.38,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/jy1gnido","slide":12,"name":"Google-Shape-2262-p159-7","bbox":[858.38,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/ixsfexw3","slide":12,"name":"Rounded-Rectangle-19-8","bbox":[41.33,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/pwny1wvy","slide":12,"name":"Content-Placeholder-8-9","text":"1. 장면 복원\n\n단안 깊이 추정\n카메라 움직임 추정\n\n프레임 간 깊이\nscale·shift 정렬","textPreview":"1. 장면 복원 |  | 단안 깊이 추정 | 카메라 움직임 추정 |  | 프레임 간 깊이 | scale·shift 정렬","textChars":54,"textLines":7,"bbox":[73.85,189.69,309.64,269.48]}
+{"kind":"shape","id":"sh/ovehsrud","slide":12,"name":"Rounded-Rectangle-21-10","bbox":[452.33,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/a1k32h4r","slide":12,"name":"Content-Placeholder-8-11","text":"2. 초점면 설정\n\n사용자가 같은 면의\n세 점을 선택\n\n주변 3D 점으로\nRANSAC 평면 피팅","textPreview":"2. 초점면 설정 |  | 사용자가 같은 면의 | 세 점을 선택 |  | 주변 3D 점으로 | RANSAC 평면 피팅","textChars":53,"textLines":7,"bbox":[484.85,189.69,309.64,269.48]}
+{"kind":"shape","id":"sh/b2t4vm5c","slide":12,"name":"Rounded-Rectangle-23-12","bbox":[864.83,147.17,374.67,380]}
+{"kind":"textbox","id":"sh/c3ml47mx","slide":12,"name":"Content-Placeholder-8-13","text":"3. 렌더링\n\n광선–평면 교차로\n픽셀별 초점 거리 계산\n\nCoC·깊이 레이어 기반\n가림 인지 합성","textPreview":"3. 렌더링 |  | 광선–평면 교차로 | 픽셀별 초점 거리 계산 |  | CoC·깊이 레이어 기반 | 가림 인지 합성","textChars":54,"textLines":7,"bbox":[897.35,189.69,309.64,269.48]}
+{"kind":"textbox","id":"sh/x4vmxcni","slide":12,"name":"Text-Placeholder-16-14","text":"3D FOCAL PLANE","textPreview":"3D FOCAL PLANE","textChars":14,"textLines":1,"bbox":[446.38,588.18,272.54,41.15]}
+{"kind":"textbox","id":"sh/2dk3yx4v","slide":12,"name":"Text-Placeholder-16-15","text":"DEPTH + POSE","textPreview":"DEPTH + POSE","textChars":12,"textLines":1,"bbox":[41.04,588.18,272.54,41.15]}
+{"kind":"textbox","id":"sh/net4r25g","slide":12,"name":"Text-Placeholder-16-16","text":"CoC RENDERING","textPreview":"CoC RENDERING","textChars":13,"textLines":1,"bbox":[863.56,588.18,272.54,41.15]}
+{"kind":"notes","id":"nt/6siwtk","slide":12,"text":"구현 흐름은 세 단계입니다. 먼저 Depth Anything 계열 모델로 깊이를 추정하고 카메라 움직임을 구합니다. 상대 깊이는 프레임마다 크기가 바뀔 수 있기 때문에 scale과 shift를 정렬하고 시간적으로 안정화해야 합니다. 다음으로 사용자가 도로 위의 세 점을 선택하면, 주변 3D 점을 이용해 RANSAC으로 안정적인 평면을 계산합니다. 마지막으로 각 픽셀의 카메라 광선이 초점면과 만나는 거리를 구하고, 실제 장면 깊이와의 차이로 CoC를 계산합니다. 깊이 레이어를 먼 곳부터 합성해 경계 halo도 줄입니다.\n\n[Sources]\n- VDPP: Video Depth Post-Processing for Speed and Scalability: https://openaccess.thecvf.com/content/CVPR2026W/ECV/papers/Yoon_VDPP_Video_Depth_Post-Processing_for_Speed_and_Scalability_CVPRW_2026_paper.pdf"}
+{"kind":"slide","id":"sl/6x2of3","slide":13,"title":"13","textShapes":6}
+{"kind":"textbox","id":"sh/gjyts3m9","slide":13,"name":"Slide-Number-Placeholder-1-2","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1184.17,659.17,54.5,25.33]}
+{"kind":"textbox","id":"sh/fipszylo","slide":13,"name":"Title-2-3","text":"논문은 ‘장면에 붙어 있는 초점면’을 핵심 기여로 설정합니다","textPreview":"논문은 ‘장면에 붙어 있는 초점면’을 핵심 기여로 설정합니다","textChars":33,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"textbox","id":"sh/uhgrqt43","slide":13,"name":"Content-Placeholder-9-4","text":"Scene-Anchored Plane\n\n화면 좌표가 아니라 월드 공간에 사용자 정의 초점면을 고정","textPreview":"Scene-Anchored Plane |  | 화면 좌표가 아니라 월드 공간에 사용자 정의 초점면을 고정","textChars":54,"textLines":3,"bbox":[41.33,213.33,581.33,172.5]}
+{"kind":"textbox","id":"sh/tg7axo3y","slide":13,"name":"Content-Placeholder-10-5","text":"Temporal Coherence\n\n깊이·카메라 움직임·가림 신뢰도를 결합해 CoC 펌핑 억제","textPreview":"Temporal Coherence |  | 깊이·카메라 움직임·가림 신뢰도를 결합해 CoC 펌핑 억제","textChars":52,"textLines":3,"bbox":[656.86,213.33,581.33,172.5]}
+{"kind":"textbox","id":"sh/sfy9o3md","slide":13,"name":"Content-Placeholder-9-6","text":"Source Preservation\n\n생성 모델 없이 원본 픽셀을 깊이 순서로 블러·합성","textPreview":"Source Preservation |  | 생성 모델 없이 원본 픽셀을 깊이 순서로 블러·합성","textChars":49,"textLines":3,"bbox":[41.33,421.73,581.33,172.51]}
+{"kind":"textbox","id":"sh/7upsvyls","slide":13,"name":"Content-Placeholder-10-7","text":"정량 평가\n\n초점면 정합도·거리–블러 단조성·시간 안정성·경계 누출 측정","textPreview":"정량 평가 |  | 초점면 정합도·거리–블러 단조성·시간 안정성·경계 누출 측정","textChars":40,"textLines":3,"bbox":[656.86,421.73,581.33,172.51]}
+{"kind":"notes","id":"nt/6x2of3","slide":13,"text":"논문의 기여는 Tilt 효과 자체가 아닙니다. 첫째, 사용자가 지정한 초점면을 화면이 아니라 월드 공간에 고정합니다. 둘째, 깊이와 카메라 움직임, 가림 신뢰도를 이용해 카메라 이동 중에도 CoC가 흔들리지 않도록 합니다. 셋째, 확산모델처럼 픽셀을 새로 생성하지 않고 원본 픽셀을 깊이 순서로 블러하고 합성합니다. 평가는 초점면 위 픽셀이 얼마나 선명한지, 초점면에서 멀어질수록 블러가 단조롭게 증가하는지, 프레임 간 블러가 안정적인지, 경계 누출이 얼마나 적은지를 측정할 계획입니다."}
+{"kind":"slide","id":"sl/4whyfp","slide":14,"title":"객체를 선택하는 DoF에서","textShapes":3}
+{"kind":"textbox","id":"sh/qtsbapsz","slide":14,"name":"Title-3-1","text":"객체를 선택하는 DoF에서\n공간을 연출하는 Focus Director로","textPreview":"객체를 선택하는 DoF에서 | 공간을 연출하는 Focus Director로","textChars":39,"textLines":2,"bbox":[41.33,182.55,992,261.57]}
+{"kind":"textbox","id":"sh/dw3ul4ra","slide":14,"name":"Subtitle-4-2","text":"Object Focus\nFocus Timeline\n3D Focal Plane","textPreview":"Object Focus | Focus Timeline | 3D Focal Plane","textChars":42,"textLines":3,"bbox":[41.33,522.13,374.67,113.41]}
+{"kind":"textbox","id":"sh/cvutcza5","slide":14,"name":"Subtitle-4-3","text":"NEXT","textPreview":"NEXT","textChars":4,"textLines":1,"bbox":[41.33,41.18,169.33,68.15]}
+{"kind":"notes","id":"nt/4whyfp","slide":14,"text":"정리하면, 뎁스맵 생성에서 출발해 객체 선택형 Smart DoF와 자연스러운 Focus Pull까지 구현했습니다. 다음 서비스에서는 Focus Director 안에 객체를 선택하는 Object Focus와 공간면을 선택하는 3D Focal Plane을 함께 제공할 수 있습니다. 논문에서는 장면에 고정된 기울어진 초점면, 시간적으로 안정적인 CoC, 가림 관계를 고려한 원본 보존 렌더링을 핵심 연구 문제로 구체화하겠습니다."}

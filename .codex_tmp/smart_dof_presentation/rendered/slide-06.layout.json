@@ -1,0 +1,1106 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/io1pqr",
+    "id": "io1pqr",
+    "slide": 6,
+    "layoutId": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "2de434bd-5f6d-4efc-ab88-255abdd20821",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b39ee131-7be5-4d37-a25f-8a7e115356e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ypgvu5",
+      "id": "1",
+      "name": "Slide-Number-Placeholder-1-2",
+      "bbox": [
+        1184.17,
+        659.17,
+        54.5,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "6",
+      "textPreview": "6",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6",
+              "anchor": 3,
+              "fontSize": 13.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "right",
+              "verticalAlignment": "bottom",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2po7qtk",
+      "id": "2",
+      "name": "Title-2-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "자연스러움을 결정한 네 가지 핵심 개선",
+      "textPreview": "자연스러움을 결정한 네 가지 핵심 개선",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "자연스러움을 결정한 네 가지 핵심 개선"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "자연스러움을 결정한 네 가지 핵심 개선",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "자연스러움을 결정한 네 가지 핵심 개선",
+              "anchor": 1,
+              "fontSize": 38.67,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1wnelcz",
+      "id": "3",
+      "name": "Content-Placeholder-9-4",
+      "bbox": [
+        41.33,
+        213.33,
+        581.33,
+        172.5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "객체 전체 선택\n\n점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의",
+      "textPreview": "객체 전체 선택 |  | 점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "객체 전체 선택"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "점·박스·긍정/부정 포인트를 함께 사용해 건물"
+          },
+          {
+            "index": 4,
+            "text": "전체를 초점 대상으로 정의"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "객체 전체 선택\n",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "객체 전체 선택\n",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "insets": {
+                "top": 4.8,
+                "right": 9.6,
+                "bottom": 4.8,
+                "left": 9.6
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "insets": {
+                "top": 4.8,
+                "right": 9.6,
+                "bottom": 4.8,
+                "left": 9.6
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90n65gbe",
+      "id": "4",
+      "name": "Content-Placeholder-10-5",
+      "bbox": [
+        656.86,
+        213.33,
+        581.33,
+        172.5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "부드러운 경계\n\n거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결",
+      "textPreview": "부드러운 경계 |  | 거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "부드러운 경계"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "거리 변환과 넓은 feathering으로 선명"
+          },
+          {
+            "index": 4,
+            "text": "영역과 블러 영역을 연속적으로 연결"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "부드러운 경계\n",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "부드러운 경계\n",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "insets": {
+                "top": 4.8,
+                "right": 9.6,
+                "bottom": 4.8,
+                "left": 9.6
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "insets": {
+                "top": 4.8,
+                "right": 9.6,
+                "bottom": 4.8,
+                "left": 9.6
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8ze5cbut",
+      "id": "5",
+      "name": "Content-Placeholder-9-6",
+      "bbox": [
+        41.33,
+        421.73,
+        581.33,
+        172.51
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "점진적 강도\n\n중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배",
+      "textPreview": "점진적 강도 |  | 중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "점진적 강도"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "중간 강도가 압축되지 않도록 깊이·공간 거리"
+          },
+          {
+            "index": 4,
+            "text": "블러를 긴 구간에 재분배"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "점진적 강도\n",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "점진적 강도\n",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y5o36t8",
+      "id": "6",
+      "name": "Content-Placeholder-10-7",
+      "bbox": [
+        656.86,
+        421.73,
+        581.33,
+        172.51
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "자연스러운 해제\n\n마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용",
+      "textPreview": "자연스러운 해제 |  | 마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "자연스러운 해제"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "마지막 안정 마스크와 초점 깊이를 기준으로"
+          },
+          {
+            "index": 4,
+            "text": "Cosine easing 적용"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "자연스러운 해제\n",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "자연스러운 해제\n",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용",
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-13",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1238.67,
+          "height": 684.5
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Slide-Number-Placeholder-1-2",
+            "position": {
+              "left": 1184.17,
+              "top": 659.17
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.5
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.5,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.17,
+              "top": 659.17,
+              "width": 54.5,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.17,
+              "top": 659.17,
+              "width": 54.5,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "6",
+            "transform": "none",
+            "element": {
+              "aid": "sh/g3ypgvu5",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Title-2-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "자연스러움을 결정한 네 가지 핵심 개선",
+            "transform": "none",
+            "element": {
+              "aid": "sh/v2po7qtk",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "Content-Placeholder-9-4",
+            "position": {
+              "left": 41.33,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 172.5
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 172.5
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            },
+            "children": [],
+            "text": "객체 전체 선택\n점·박스·긍정/부정 포인트를 함께 사용해 건물 전체를 초점 대상으로 정의",
+            "transform": "none",
+            "element": {
+              "aid": "sh/u1wnelcz",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "Content-Placeholder-10-5",
+            "position": {
+              "left": 656.86,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 172.5
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 172.5
+            },
+            "frame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            },
+            "snappedFrame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            },
+            "children": [],
+            "text": "부드러운 경계\n거리 변환과 넓은 feathering으로 선명 영역과 블러 영역을 연속적으로 연결",
+            "transform": "none",
+            "element": {
+              "aid": "sh/90n65gbe",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "Content-Placeholder-9-6",
+            "position": {
+              "left": 41.33,
+              "top": 421.73
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 172.51
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 172.51
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            },
+            "children": [],
+            "text": "점진적 강도\n중간 강도가 압축되지 않도록 깊이·공간 거리 블러를 긴 구간에 재분배",
+            "transform": "none",
+            "element": {
+              "aid": "sh/8ze5cbut",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "Content-Placeholder-10-7",
+            "position": {
+              "left": 656.86,
+              "top": 421.73
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 172.51
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 172.51
+            },
+            "frame": {
+              "left": 656.86,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            },
+            "snappedFrame": {
+              "left": 656.86,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            },
+            "children": [],
+            "text": "자연스러운 해제\n마지막 안정 마스크와 초점 깊이를 기준으로 Cosine easing 적용",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7y5o36t8",
+              "id": "6",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.17,
+              "top": 659.17,
+              "width": 54.5,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 172.5
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 41.33,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 656.86,
+              "top": 421.73,
+              "width": 581.33,
+              "height": 172.51
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
